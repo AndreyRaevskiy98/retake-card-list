@@ -1,0 +1,56 @@
+.app {
+  margin: 20px auto;
+
+  max-width: 500px;
+}
+
+.add-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.add-card label {
+  width: 100%;
+}
+
+.add-card textarea {
+  width: 100%;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.add-card button {
+  box-sizing: border-box;
+}
+
+.card-list {
+  margin: 20px 0;
+
+  max-width: 500px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.card-item {
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px;
+  background: tomato;
+
+  width: calc(50% - 10px);
+}
+
+.card-item p {
+  margin: 0;
+
+  word-wrap: break-word;
+}
+
+.card-item-delete {
+  margin-top: 12px;
+}
